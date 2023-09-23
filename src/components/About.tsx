@@ -12,7 +12,7 @@ const About: React.FC = () => {
                 <h2 className="text-2xl font-semibold text-white mb-6">About Me</h2>
                 <div className="space-y-6">
                     <p className="text-gray-200">
-                        I'm a 20 year old developer who started off as self-taught then went to Queen Mary university of London to study Computer Science and Mathematics.
+                        I&apos;m a 20 year old developer who started off as self-taught then went to Queen Mary university of London to study Computer Science and Mathematics.
                         I am in my second year at uni and have been coding for 3 years now. I code every single day and I enjoy learning new technologies, languages, and experiencing working with new
                         teams on new and cool projects.
                     </p>
