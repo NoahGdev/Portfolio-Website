@@ -32,13 +32,13 @@ const Navbar: React.FC = () => {
           iNoah
         </Link>
         <div className="hidden md:flex space-x-6">
-          <Link href="/" className="text-lg font-medium text-gray-800 text-white hover:text-gray-900 hover:text-gray-300">
+          <Link href="/" className="text-lg font-medium text-gray-800 text-white hover:text-gray-300">
             Home
           </Link>
-          <Link href="/PreviousWork" className="text-lg font-medium text-gray-800 text-white hover:text-gray-900 hover:text-gray-300">
+          <Link href="/PreviousWork" className="text-lg font-medium text-gray-800 text-white hover:text-gray-300">
             Previous Work
           </Link>
-          <Link href="/Contact" className="text-lg font-medium text-gray-800 text-white hover:text-gray-900 hover:text-gray-300">
+          <Link href="/Contact" className="text-lg font-medium text-gray-800 text-white hover:text-gray-300">
             Contact
           </Link>
         </div>

@@ -6,7 +6,7 @@ const Hero: React.FC = () => {
     <div className="relative h-screen flex items-center justify-center hdr">
       <svg className="absolute left-0 top-0 right-99 z-[-1]" viewBox="0 0 800 800">
         <defs>
-            <filter id="bbblurry-filter" x="-100%" y="-100%" width="400%" height="400%" filterUnits="objectBoundingBox" primitiveUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+            <filter id="bbblurry-filter" x="-100%" y="-100%" width="400%" height="400%" filterUnits="objectBoundingBox" primitiveUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
                 <feGaussianBlur stdDeviation="73" x="0%" y="0%" width="100%" height="100%" in="SourceGraphic" edgeMode="none" result="blur"></feGaussianBlur>
             </filter>
         </defs>
