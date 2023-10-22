@@ -1,6 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import { FaDiscord, FaLinkedin, FaGithub } from 'react-icons/fa'
+import { ButtonLink } from './Scroller';
 
 const Footer: React.FC = () => {
   return (
@@ -13,19 +14,13 @@ const Footer: React.FC = () => {
           <div className="mb-6 md:mb-0 md:flex md:space-x-12">
             <ul className="space-y-4">
               <li>
-                <Link href="/" className="text-lg font-medium hover:text-gray-300">
-                  Home
-                </Link>
+                <ButtonLink className="text-lg font-medium hover:text-gray-300" buttonText='Home' elementId='hero'/>
               </li>
               <li>
-                <Link href="/" className="text-lg font-medium hover:text-gray-300">
-                  Previous Work
-                </Link>
+                <ButtonLink className="text-lg font-medium hover:text-gray-300" buttonText='Previous Work' elementId='previouswork'/>
               </li>
               <li>
-                <Link href="/" className="text-lg font-medium hover:text-gray-300">
-                  Contact
-                </Link>
+                <ButtonLink className="text-lg font-medium hover:text-gray-300" buttonText='Contact' elementId='contact'/>
               </li>
             </ul>
             <div className="flex space-x-6">

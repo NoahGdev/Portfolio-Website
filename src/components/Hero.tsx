@@ -1,9 +1,10 @@
 import React from 'react';
 import Link from 'next/link';
+import { ButtonLink } from './Scroller';
 
 const Hero: React.FC = () => {
   return (
-    <div className="relative h-screen flex items-center justify-center hdr">
+    <div id='hero' className="relative h-screen flex items-center justify-center hdr">
       <svg className="absolute left-0 top-0 right-99 z-[-1]" viewBox="0 0 800 800">
         <defs>
             <filter id="bbblurry-filter" x="-100%" y="-100%" width="400%" height="400%" filterUnits="objectBoundingBox" primitiveUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
@@ -23,11 +24,7 @@ const Hero: React.FC = () => {
           </p>
         </p>
         <div className="flex justify-center space-x-4">
-          <button className="bg-white text-blue-600 font-semibold px-6 py-2 rounded-md hover:bg-gray-100">
-            <Link href='/PreviousWork' target='_blank'>
-              Previous Work
-            </Link>
-          </button>
+          <ButtonLink className="bg-white text-blue-600 font-semibold px-6 py-2 rounded-md hover:bg-gray-100" buttonText='Previous Work' elementId='previouswork'/>
           <button className="bg-transparent border-2 border-white text-white font-semibold px-6 py-2 rounded-md hover:bg-white hover:text-blue-600">
             <Link href='https://resume.io/r/kpSyznSzv' target='_blank'>
               Resume

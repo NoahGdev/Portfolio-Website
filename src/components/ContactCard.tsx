@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 const ContactCard: React.FC = () => {
   return (
-    <>
+    <div id='contact'>
         <h2 className="text-2xl font-bold mb-2 text-center">Check out my socials below! ✨</h2>
         <div className="bg-transparent border p-8 rounded-lg shadow-lg text-white w-full md:max-w-4xl mx-auto mt-8 cc-bg blur-background w-4/5">
             <div className="flex justify-between items-center">
@@ -31,7 +31,7 @@ const ContactCard: React.FC = () => {
                 </div>
             </div>
         </div>
-    </>
+    </div>
   );
 };
 
