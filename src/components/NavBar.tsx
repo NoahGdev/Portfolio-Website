@@ -3,6 +3,7 @@
 import React, { useEffect, useState } from 'react';
 import Link from 'next/link';
 import { ButtonLink } from './Scroller';
+import { FaDiscord } from 'react-icons/fa';
 
 const Navbar: React.FC = () => {
 
@@ -57,6 +58,9 @@ const Navbar: React.FC = () => {
           <Link href="https://github.com/NoahGdev" target='_blank' className="hidden md:flex">
             <img src="/github-mark-white.svg" alt="" className='GitHub' />
           </Link>
+          <Link href="https://discord.gg/wDdeQ2bEbG" target='_blank' className="hidden md:flex">
+            <FaDiscord size={36}/>
+          </Link>
         </div>
       </nav>
       <div className={`md:hidden ${mobileMenuOpen ? 'flex' : 'hidden'} justify-between mt-4 mb-6 ml-5`}>
@@ -65,9 +69,14 @@ const Navbar: React.FC = () => {
           <ButtonLink className="text-left text-lg font-medium text-gray-800 text-white hover:text-gray-200 hover:text-gray-400" buttonText='Previous Work' elementId='previouswork'/>
           <ButtonLink className="text-left text-lg font-medium text-gray-800 text-white hover:text-gray-200 hover:text-gray-400" buttonText='Contact' elementId='contact'/>
         </div>
-        <Link href="https://github.com/NoahGdev" target='_blank' className="text-lg font-medium text-gray-800:text-white hover:text-gray-900 hover:text-gray-300 flex items-center mt-20 mr-4">
-          <img src="/github-mark-white.svg" alt="" className='GitHub' />
-        </Link>
+        <div className="flex items-center mt-20 mr-4">
+          <Link href="https://github.com/NoahGdev" target='_blank'>
+            <img src="/github-mark-white.svg" alt="" className='GitHub' />
+          </Link>
+          <Link href="https://discord.gg/wDdeQ2bEbG" target='_blank' className="ml-4">
+            <FaDiscord size={36}/>
+          </Link>
+        </div>
       </div>
     </header>
   );
