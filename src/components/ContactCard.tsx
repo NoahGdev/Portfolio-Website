@@ -25,7 +25,7 @@ const ContactCard: React.FC = () => {
                     <a href="https://www.linkedin.com/in/noah-gomes" target="_blank" rel="noreferrer" className="hover:text-gray-200">
                         <FaLinkedin size={44} />
                     </a>
-                    <a href="https://discord.com/users/801636548218191893" target="_blank" rel="noreferrer" className="hover:text-gray-200">
+                    <a href="https://discord.gg/wDdeQ2bEbG" target="_blank" rel="noreferrer" className="hover:text-gray-200">
                         <FaDiscord size={44} />
                     </a>
                 </div>
