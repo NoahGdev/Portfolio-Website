@@ -30,7 +30,7 @@ const Footer: React.FC = () => {
               <Link href="https://www.linkedin.com/in/noah-gomes" target='_blank'>
                 <FaLinkedin size={36}/>
               </Link>
-              <Link href="https://discord.com/users/801636548218191893" target='_blank'>
+              <Link href="https://discord.gg/wDdeQ2bEbG" target='_blank'>
                 <FaDiscord size={36}/>
               </Link>
             </div>
