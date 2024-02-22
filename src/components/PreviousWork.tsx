@@ -1,41 +1,44 @@
 const projects = [
   {
-    title: "Ambush.IO",
-    description: "(Software Developer) SaaS Company built for the sneaker reselling industry to allow users to mass enter raffles through the use of HTTP requests and more. Check out more by clicking on me!",
-    imageUrl: "https://pbs.twimg.com/profile_banners/1425260143227416579/1634063170/600x200",
+    title: "Freelancer Web GIS Developer",
+    description:
+      "The responsibilities include crafting UI/UX designs, establishing synchronization with PostgreSQL databases, developing backend systems using the Laravel framework, deploying data to hosting platforms, presenting work outcomes, and creating a manual book for user guidance in application usage.",
+    imageUrl: "https://thumbs2.imgbox.com/2f/0b/SqVL9bkC_t.png",
     caseStudyUrl: "#",
   },
   {
-    title: "Liquid Tools",
-    description: "(Founder + Developer) SaaS company built in the sneaker reselling industry consisting of tools to simplify user experience and increase effiency. Check Out Repo and Live website here!",
-    imageUrl: "https://pbs.twimg.com/profile_banners/1513162011835834372/1670196785/600x200",
-    caseStudyUrl: "https://github.com/NoahGdev/LiquidTools",
-  },
-  {
-    title: "Church Website revamp",
-    description: "Simple website I made for free to improve on current outdated website for my church!",
-    imageUrl: "https://media.discordapp.net/attachments/881992483603611708/1098721882292887663/image.png?width=1377&height=676",
+    title: "Surveyour PTSL PM Kabupaten Lumajang",
+    description:
+      "The duties include identifying land parcel boundaries with village staff, creating operational maps for field activities, conducting land parcel boundary measurements using GPS RTK survey equipment, and drafting measurement results using AutoCAD applications.",
+    imageUrl: "https://thumbs2.imgbox.com/74/73/9tXJg4bC_t.png",
     caseStudyUrl: "#",
   },
   {
-    title: "Freelance Work",
-    description: "I have completed various projects from discord bots to websites with payment integrations and much more!",
+    title: "Surveyour PTSL PM Kabupaten Siak",
+    description:
+      "The duties include identifying land parcel boundaries with village staff, creating operational maps for field activities, conducting land parcel boundary measurements using GPS RTK survey equipment, and drafting measurement results using AutoCAD applications.",
     imageUrl: "https://rakyatntt.com/wp-content/uploads/2020/11/logo-kementrian-ATR.jpg",
     caseStudyUrl: "#",
   },
   {
-    title: "Podcast App",
+    title: "Geographic Information Systems Specialist Manager",
     description:
-      "An app created with react-native and expo for my church where podcasts could be streamed live or listned back to. The app displayed different stacks for logged in\
-      and logged out users, saved sessions and this is where I learned about authentication with sign up and sign in.",
-    imageUrl: "https://www.clipartmax.com/png/middle/106-1063279_address-logo-kementerian-pupr.png",
-    caseStudyUrl: "#",
+      "The tasks involve drafting an implementation plan for technical agreements, preparing preliminary reports, coordinating with teams from the National Geospatial Information Agency (BIG) and villages prior to technical activities, creating a Geodatabase framework for implementation, developing pre-activity operational maps, conducting internal quality control processes for boundary segment delineation, establishing topological rules to check spatial data, and creating a final Geodatabase in accordance with the agreed structure.",
+    imageUrl: "https://4.bp.blogspot.com/-uEZUutT5T6g/WMDwaUeA98I/AAAAAAAABNg/L_w65dGWjoofOwJJaESlKkc1p1LWTCWewCLcB/s1600/logo-badan-informasi-geospasial-big.jpg",
+    caseStudyUrl: "https://www.instagram.com/p/CnlyJMALxw2/?igsh=MWh0aGtzaG04NGduZA==",
+  },
+  {
+    title: "Technical Support Junior Developer",
+    description:
+      "The responsibilities entail generating progress reports based on project outcomes received, providing technical support alongside the sales team, creating mock-ups for clients, deploying data to hosting platforms, developing backend systems for application data, and producing weekly reports.",
+    imageUrl: "https://images2.imgbox.com/38/06/vZBuJGCy_o.png",
+    caseStudyUrl: "https://youtu.be/WrqLf0mcZtY",
   },
   {
     title: "This website ✨",
-    description: "Portfolio website built in Next.js 13 to showcase my projects, experience and resume through a cooler way. Checkout the repo and more by clicking on me.",
-    imageUrl: "https://nextjs.org/static/blog/next-13/twitter-card.png",
-    caseStudyUrl: "https://github.com/NoahGdev/Portfolio-Website",
+    description: "The content of this website is currently undergoing updates.",
+    imageUrl: "https://www.hazard-signs.nz/wp-content/uploads/2021/02/caution_097.jpg",
+    caseStudyUrl: "https://github.com/XGamingTechnology/",
   },
 ];
 

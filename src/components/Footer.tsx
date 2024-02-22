@@ -8,8 +8,11 @@ const Footer: React.FC = () => {
     <footer className="text-white py-6 mt-40 footer-b">
       <div className="container mx-auto px-6">
         <div className="md:flex md:justify-between md:items-center">
-          <div className="text-2xl font-semibold mb-6 md:mb-0">iNoah</div>
-          <div className="text-2xl font-semibold mb-6 md:mb-0">Desain by</div>
+          <div className="text-2xl font-semibold mb-6 md:mb-0">
+            <Link href="https://github.com/NoahGdev" target="_blank" className="text-2xl font-semibold text-gray-800 text-white">
+              Designed By iNoah
+            </Link>
+          </div>
           <div className="mb-6 md:mb-0 md:flex md:space-x-12">
             <ul className="space-y-4">
               <li>

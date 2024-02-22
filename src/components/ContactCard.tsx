@@ -5,14 +5,14 @@ import Link from "next/link";
 const ContactCard: React.FC = () => {
   return (
     <div id="contact">
-      <h2 className="text-2xl font-bold mb-2 text-center">Check out my socials below! ✨</h2>
+      <h2 className="text-2xl font-bold mb-2 text-center">Feel free to explore my social media channels listed below! ✨</h2>
       <div className="bg-transparent border p-8 rounded-lg shadow-lg text-white w-full md:max-w-4xl mx-auto mt-8 cc-bg blur-background w-4/5">
         <div className="flex justify-between items-center">
           <div>
             <h2 className="text-2xl font-bold mb-2">Rizky Ramdani</h2>
-            <p className="text-sm mb-4">GIS Analayst and Web GIS Developer</p>
+            <p className="text-sm mb-4">Mapping Maverick and Web GIS Enthusiast</p>
             <button className="bg-inherit border text-purple-200 px-4 py-2 rounded shadow hover:bg-gray-100 hover:text-black transition-colors duration-200">
-              <Link href="https://resume.io/r/kpSyznSzv" target="_blank">
+              <Link href="https://drive.google.com/file/d/1Z18hQceeN0yhaftkBce2sUKzok7WZfLg/view?usp=sharing" target="_blank">
                 Resume
               </Link>
             </button>

@@ -3,38 +3,88 @@ import React from "react";
 const experiences = [
   {
     id: 1,
-    role: "Freelance Developer",
-    company: "Spill Notify",
-    date: "No Specific Date",
-    description: "Developed a tool that allows users of a group to buy limited time items faster than others by monitoring the websites using HTTP requests. More info here.",
+    role: "GIS Data Processor",
+    company: "PT.Bias Reka / (BIG)",
+    date: "08/2018 - 12/2018",
+    description:
+      "In this role, tasks involve updating spatial data utilizing ArcMap, creating operational maps, delineating village boundaries through cartometric techniques, and generating a Geodatabase based on the delineated boundaries.",
   },
   {
     id: 2,
-    role: "Software Developer",
-    company: "Ambush.IO",
-    date: "Aug 2021 - Apr 2022",
-    description: "Used Python + Flask to develop the software for a SaaS with a team of developers. More info here.",
+    role: "Web GIS Developer",
+    company: "PT.Damako (DPKP3 Bandung)",
+    date: "03/2019 - 05/2019",
+    description:
+      "In this role, tasks involve creating a spatial database using QGIS, inputting survey results and spatial data modeling into a web data structure, developing a data system using QGIS for Leaflet, publishing Leaflet-generated data to hosting, and presenting product outcomes.",
   },
   {
     id: 3,
-    role: "Developer/Owner",
-    company: "LiquidTools",
-    date: "Apr 2022 - Current",
-    description: "A SaaS start up I developed in my spare time that now has 200+ monthly paying users. Used Python + JS. More info here.",
+    role: "Web GIS Developer",
+    company: "PT.Damako (DPKP3 Bandung)",
+    date: "05/2019 - 06/2019",
+    description:
+      "In this role, tasks involve creating a spatial database using QGIS, inputting survey results and spatial data modeling into a web data structure, developing a data system using QGIS for Leaflet, publishing Leaflet-generated data to hosting, and presenting product outcomes.",
   },
   {
     id: 4,
-    role: "GIS Analyst",
-    company: "LiquidTools",
-    date: "Apr 2022 - Current",
-    description: "A SaaS start up I developed in my spare time that now has 200+ monthly paying users. Used Python + JS. More info here.",
+    role: "GIS Data Processing Coordinator",
+    company: "PT.Global Asia Solusindo (ATRBPN)",
+    date: "09/2019 - 12/2019",
+    description: "The responsibilities include creating operational maps, digitizing toponyms within the working area, printing work maps, coordinating field teams, and conducting quality control on field data.",
   },
   {
     id: 5,
-    role: "GIS DEVELOPER",
-    company: "LiquidTools",
-    date: "Apr 2022 - Current",
-    description: "A SaaS start up I developed in my spare time that now has 200+ monthly paying users. Used Python + JS. More info here.",
+    role: "Surveyour Ground Control Point",
+    company: "PT.Bias Reka (BIG)",
+    date: "09/2020 - 12/2020",
+    description: "The tasks involve conducting coordinate point retrieval using GPS RTK through static methods, creating pre-fieldwork operational maps, and plotting coordinate points from measurement results.",
+  },
+  {
+    id: 6,
+    role: "Technical Support Junior Developer",
+    company: "PT.Supermap Representative Office Indonesia",
+    date: "03/2021 - 06/2021",
+    description:
+      "The responsibilities entail generating progress reports based on project outcomes received, providing technical support alongside the sales team, creating mock-ups for clients, deploying data to hosting platforms, developing backend systems for application data, and producing weekly reports.",
+  },
+  {
+    id: 7,
+    role: "Geographic Information Systems Specialist Manager",
+    company: "PT.Bias Reka (BIG)",
+    date: "09/2021 - 12/2021",
+    description:
+      "The tasks involve drafting an implementation plan for technical agreements, preparing preliminary reports, coordinating with teams from the National Geospatial Information Agency (BIG) and villages prior to technical activities, creating a Geodatabase framework for implementation, developing pre-activity operational maps, conducting internal quality control processes for boundary segment delineation, establishing topological rules to check spatial data, and creating a final Geodatabase in accordance with the agreed structure.",
+  },
+  {
+    id: 8,
+    role: "Surveyour PTSL PM Kabupaten Siak",
+    company: "PT.Bias Reka (ATRBPN)",
+    date: "09/2022 - 01/2023",
+    description:
+      "The duties include identifying land parcel boundaries with village staff, creating operational maps for field activities, conducting land parcel boundary measurements using GPS RTK survey equipment, and drafting measurement results using AutoCAD applications.",
+  },
+  {
+    id: 9,
+    role: "Surveyour PTSL PM Kabupaten Lumajang",
+    company: "PT.Bias Reka (ATRBPN)",
+    date: "03/2023 - 08/2023",
+    description:
+      "The duties include identifying land parcel boundaries with village staff, creating operational maps for field activities, conducting land parcel boundary measurements using GPS RTK survey equipment, and drafting measurement results using AutoCAD applications.",
+  },
+  {
+    id: 10,
+    role: "Freelancer Web GIS Developer",
+    company: "PT. Waku (PUPR Provinsi Kalimantan Barat)",
+    date: "08/2023 - 10/2023",
+    description:
+      "The responsibilities include crafting UI/UX designs, establishing synchronization with PostgreSQL databases, developing backend systems using the Laravel framework, deploying data to hosting platforms, presenting work outcomes, and creating a manual book for user guidance in application usage.",
+  },
+  {
+    id: 11,
+    role: "Freelancer Staf Engineer",
+    company: "PT. Barata Geospasial Technology Bandung",
+    date: "01/2024 - Current",
+    description: "The tasks entail creating GIS project reports, conducting spatial data analysis, outlining project flow schematics, and performing data evaluation and monitoring.",
   },
 ];
 
