@@ -5,7 +5,7 @@ import Link from "next/link";
 import { ButtonLink } from "./Scroller";
 import { FaDiscord } from "react-icons/fa";
 
-const Navbar: React.FC = () => {
+const NavBar: React.FC = () => {
   const [scrolling, setScrolling] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
@@ -29,8 +29,8 @@ const Navbar: React.FC = () => {
   return (
     <header className={`fixed w-full bg-transparent z-50 mnhdr h-auto transition-all ${scrolling ? "blur-background" : ""} ${mobileMenuOpen ? "h-24 blur-background" : ""}`}>
       <nav className="container mx-auto px-6 py-3 flex justify-between items-center">
-        <Link href="/" className="text-2xl font-semibold text-gray-800 text-white">
-          Profile
+        <Link href="/" passHref>
+          <a className="text-2xl font-semibold text-gray-800 text-white">Profile</a>
         </Link>
         <div className="hidden md:flex space-x-6">
           <ButtonLink className="text-lg font-medium text-gray-800 text-white hover:text-gray-300" buttonText="Home" elementId="hero" />
@@ -43,11 +43,15 @@ const Navbar: React.FC = () => {
               <path d="M4 6h16M4 12h16M4 18h16"></path>
             </svg>
           </button>
-          <Link href="https://github.com/XGamingTechnology" target="_blank" className="hidden md:flex">
-            <img src="/github-mark-white.svg" alt="" className="GitHub" />
+          <Link href="https://github.com/XGamingTechnology" passHref>
+            <a className="hidden md:flex">
+              <img src="/github-mark-white.svg" alt="" className="GitHub" />
+            </a>
           </Link>
-          <Link href="https://discord.gg/3UgqRV8n" target="_blank" className="hidden md:flex">
-            <FaDiscord size={36} />
+          <Link href="https://discord.gg/3UgqRV8n" passHref>
+            <a className="hidden md:flex">
+              <FaDiscord size={36} />
+            </a>
           </Link>
         </div>
       </nav>
@@ -58,11 +62,15 @@ const Navbar: React.FC = () => {
           <ButtonLink className="text-left text-lg font-medium text-gray-800 text-white hover:text-gray-200 hover:text-gray-400" buttonText="Contact" elementId="contact" />
         </div>
         <div className="flex items-center mt-20 mr-4">
-          <Link href="https://github.com/XGamingTechnology" target="_blank">
-            <img src="/github-mark-white.svg" alt="" className="GitHub" />
+          <Link href="https://github.com/XGamingTechnology" passHref>
+            <a>
+              <img src="/github-mark-white.svg" alt="" className="GitHub" />
+            </a>
           </Link>
-          <Link href="https://discord.gg/3UgqRV8n" target="_blank" className="ml-4">
-            <FaDiscord size={36} />
+          <Link href="https://discord.gg/3UgqRV8n" passHref className="ml-4">
+            <a>
+              <FaDiscord size={36} />
+            </a>
           </Link>
         </div>
       </div>
@@ -70,4 +78,4 @@ const Navbar: React.FC = () => {
   );
 };
 
-export default Navbar;
+export default NavBar;
