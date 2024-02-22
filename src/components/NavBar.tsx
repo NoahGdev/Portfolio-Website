@@ -43,10 +43,10 @@ const Navbar: React.FC = () => {
               <path d="M4 6h16M4 12h16M4 18h16"></path>
             </svg>
           </button>
-          <Link href="https://github.com/NoahGdev" target="_blank" className="hidden md:flex">
+          <Link href="https://github.com/XGamingTechnology" target="_blank" className="hidden md:flex">
             <img src="/github-mark-white.svg" alt="" className="GitHub" />
           </Link>
-          <Link href="https://discord.gg/wDdeQ2bEbG" target="_blank" className="hidden md:flex">
+          <Link href="https://discord.gg/3UgqRV8n" target="_blank" className="hidden md:flex">
             <FaDiscord size={36} />
           </Link>
         </div>
@@ -58,10 +58,10 @@ const Navbar: React.FC = () => {
           <ButtonLink className="text-left text-lg font-medium text-gray-800 text-white hover:text-gray-200 hover:text-gray-400" buttonText="Contact" elementId="contact" />
         </div>
         <div className="flex items-center mt-20 mr-4">
-          <Link href="https://github.com/NoahGdev" target="_blank">
+          <Link href="https://github.com/XGamingTechnology" target="_blank">
             <img src="/github-mark-white.svg" alt="" className="GitHub" />
           </Link>
-          <Link href="https://discord.gg/wDdeQ2bEbG" target="_blank" className="ml-4">
+          <Link href="https://discord.gg/3UgqRV8n" target="_blank" className="ml-4">
             <FaDiscord size={36} />
           </Link>
         </div>
