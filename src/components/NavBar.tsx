@@ -44,14 +44,14 @@ const NavBar: React.FC = () => {
             </svg>
           </button>
           <Link href="https://github.com/XGamingTechnology" passHref>
-            <a className="hidden md:flex">
+            <div className="hidden md:flex">
               <img src="/github-mark-white.svg" alt="" className="GitHub" />
-            </a>
+            </div>
           </Link>
           <Link href="https://discord.gg/3UgqRV8n" passHref>
-            <a className="hidden md:flex">
+            <div className="hidden md:flex">
               <FaDiscord size={36} />
-            </a>
+            </div>
           </Link>
         </div>
       </nav>
@@ -63,14 +63,14 @@ const NavBar: React.FC = () => {
         </div>
         <div className="flex items-center mt-20 mr-4">
           <Link href="https://github.com/XGamingTechnology" passHref>
-            <a>
+            <div>
               <img src="/github-mark-white.svg" alt="" className="GitHub" />
-            </a>
+            </div>
           </Link>
-          <Link href="https://discord.gg/3UgqRV8n" passHref className="ml-4">
-            <a>
+          <Link href="https://discord.gg/3UgqRV8n" passHref>
+            <div className="ml-4">
               <FaDiscord size={36} />
-            </a>
+            </div>
           </Link>
         </div>
       </div>

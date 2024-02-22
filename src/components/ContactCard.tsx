@@ -11,11 +11,9 @@ const ContactCard: React.FC = () => {
           <div>
             <h2 className="text-2xl font-bold mb-2">Rizky Ramdani</h2>
             <p className="text-sm mb-4">Mapping Maverick and Web GIS Enthusiast</p>
-            <button className="bg-inherit border text-purple-200 px-4 py-2 rounded shadow hover:bg-gray-100 hover:text-black transition-colors duration-200">
-              <a href="https://drive.google.com/file/d/1Z18hQceeN0yhaftkBce2sUKzok7WZfLg/view?usp=sharing" target="_blank" rel="noopener noreferrer">
-                Resume
-              </a>
-            </button>
+            <Link href="https://drive.google.com/file/d/1Z18hQceeN0yhaftkBce2sUKzok7WZfLg/view?usp=sharing" passHref>
+              <button className="bg-inherit border text-purple-200 px-4 py-2 rounded shadow hover:bg-gray-100 hover:text-black transition-colors duration-200">Resume</button>
+            </Link>
           </div>
 
           <div className="flex space-x-4">
