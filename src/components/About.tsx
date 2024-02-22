@@ -13,26 +13,28 @@ const About: React.FC = () => {
             <div className="space-y-6">
               <div className="text-gray-200">
                 <p>
-                  I&apos;m interested in computer science, IT world and programing coding for spatial data, sightseeing and documentaries. Please don't hesitate to contact me for opportunities and potential collaborations in the world of
-                  mapping and also development of web and mobile based spatial data projects
+                  I&apos;m interested in computer science, IT world and programming, coding for spatial data, sightseeing, and documentaries. Please don't hesitate to contact me for opportunities and potential collaborations in the world of
+                  mapping and also development of web and mobile-based spatial data projects.
                   <br />
-                  <p>My experienced are GIS technician and GIS Developer with a demonstrated history of more than 6 years working in the mapping and surveying industry</p>
+                  My experience as a GIS technician and GIS Developer with a demonstrated history of more than 6 years working in the mapping and surveying industry.
                 </p>
               </div>
               <h3 className="text-xl font-semibold text-white">Software & Languages</h3>
               <div className="flex justify-between items-end">
                 <ul className="list-disc pl-5 text-gray-400">
-                  <li>Arcgis</li>
-                  <li>QGis</li>
+                  <li>ArcGIS</li>
+                  <li>QGIS</li>
                   <li>Global Mapper</li>
-                  <li>AutoCad</li>
-                  <li>Javascript</li>
+                  <li>AutoCAD</li>
+                  <li>JavaScript</li>
                   <li>HTML / CSS</li>
                   <li>PHP</li>
                 </ul>
                 <button className="bg-transparent border hover:bg-white hover:text-black font-bold py-2 px-4 rounded hover:border-none">
-                  <Link href="https://drive.google.com/file/d/1Z18hQceeN0yhaftkBce2sUKzok7WZfLg/view?usp=sharing" target="_blank">
-                    Resume
+                  <Link href="https://drive.google.com/file/d/1Z18hQceeN0yhaftkBce2sUKzok7WZfLg/view?usp=sharing" passHref>
+                    <a target="_blank" rel="noopener noreferrer">
+                      Resume
+                    </a>
                   </Link>
                 </button>
               </div>
